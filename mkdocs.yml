@@ -1,14 +1,53 @@
-site_name: Anatoly Dudov Portfolio
-site_description: Technical Writing & Incident Management
-site_author: Anatoly Dudov
+site_name: Anatoliy Dudov — Technical Writing Portfolio
+site_description: Runbooks, Incident Management, Documentation
+site_author: Anatoliy Dudov
+
+repo_url: https://github.com/anatoliy-dudov/portfolio
+repo_name: portfolio
 
 theme:
   name: material
+  language: ru
+
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+  - mermaid2
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed
 
 nav:
-  - Main page: index.md
-  - About me: about.md
-  - Portfolio: portfolio.md
-  - Docs:
-      - Runbooks: runbooks.md
-      - Incident management: incidents.md
+  - Главная: index.md
+  - Обо мне: about.md
+  - Портфолио: portfolio.md
+  - Runbooks: runbooks.md
+  - Incident Management: incidents.md
+  - Диаграммы: diagrams.md
