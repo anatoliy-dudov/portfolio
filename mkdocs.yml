@@ -47,6 +47,7 @@ markdown_extensions:
 nav:
   - Главная: index.md
   - Обо мне: about.md
+  - Документация: documentation.md
   - Портфолио: portfolio.md
   - Runbooks: runbooks.md
   - Incident Management: incidents.md
