@@ -1,9 +1,17 @@
-# Hi there
+# Technical Writing Portfolio
 
-My name is <b>Anatoly</b>.
-I'm a technical writer and work in incident management.
+Привет 👋
 
-Read:
-- runbook; #problem- and incident-management
-- documentation;    #dpcs
-- ITIL  #problem- and incident-management
+Меня зовут **Анатолий Дудов**.  
+Я технический писатель и работаю с:
+
+- Incident management
+- Runbooks
+- ITIL процессы
+- техническая документация
+
+## Что есть на этом сайте
+
+- примеры runbooks
+- документация процессов
+- схемы инцидентов

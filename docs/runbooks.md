@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Runbook Example
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Incident creation workflow
 
-## Commands
+1. Получить алерт из мониторинга.
+2. Проверить сервис.
+3. Создать инцидент в Jira.
+4. Уведомить команду.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!! note
+    Этот runbook используется L2 поддержкой.
