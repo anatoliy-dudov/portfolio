@@ -1,0 +1,14 @@
+site_name: Anatoly Dudov Portfolio
+site_description: Technical Writing & Incident Management
+site_author: Anatoly Dudov
+
+theme:
+  name: material
+
+nav:
+  - Main page: index.md
+  - About me: about.md
+  - Portfolio: portfolio.md
+  - Docs:
+      - Runbooks: runbooks.md
+      - Incident management: incidents.md
